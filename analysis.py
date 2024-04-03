@@ -29,7 +29,7 @@ history = tickers.history(period="3mo")
 # Time Series Analysis
 close_history = history["Close"]
 
-display(close_history)
+# display(close_history)d
 
 fig, ax = plt.subplots(figsize=(10, 6))
 ax = sns.lineplot(
